@@ -1,0 +1,81 @@
+/* regole di reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #342727;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    color: yellow;
+}
+
+h1 {
+    color: rgb(234, 128, 128);
+}
+
+.verde {
+    color: green;
+}
+
+a:link,
+a:visited {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+a.link-esterni:link,
+a.link-esterni:visited {
+    color:rgb(118, 167, 236);
+}
+
+a.link-esterni:hover {
+    color:rgb(234, 128, 128);
+}
+
+li {
+    display: inline;
+}
+
+a.btn {
+    padding: 10px;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+a.btn:hover {
+    background-color: green;
+}
+
+.container {
+    width: 1024px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f4ecaa;
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
